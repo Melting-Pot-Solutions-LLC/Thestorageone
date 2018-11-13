@@ -864,11 +864,53 @@
         .navbar-brand>img {
             max-width: 200px;
         }
+        .advantages .unit-wrapper:nth-child(3){
+            clear: both;
+        }
+        .contact-content{
+            margin-left: -20px;
+        }
+        .contact-icon{
+            width: 40px;
+        }
+        .single-footer {
+            height: inherit;
+        }
+        footer .widget-title.title-img img{
+            max-width: 200px;
+        }
     }
 
     @media only screen and (max-width: 767px) {
         .show-xs {
             display: block;
+        }
+
+        .single-about-left .last-location {
+            margin-top: 0;
+        }
+        .contact-content{
+            margin-left: 0;
+        }
+        .contact-icon{
+            width: 60px;
+        }
+        footer.footer-area.section-padding{
+            padding: 5px 0;
+        }
+        .single-footer{
+            display: none;
+        }
+        #home .info img {
+            max-width: 90%;
+            width: 100%;
+            min-width: inherit;
+            margin: 50px auto;
+            object-fit: contain;
+            display: block;
+            height: 90%;
+            min-height: inherit;
+            max-height: 90%;
         }
     }
 
