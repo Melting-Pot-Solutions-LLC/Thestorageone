@@ -1,35 +1,9 @@
-/*
-Template Name: Khela - Multipurpose Business HTML5 Template
-Profile URI: https://themeforest.net/user/jigsawlab
-Author: Jigsawlab
-Description: Khela – Multipurpose Business  HTML5 Template is especially designed for business niche companies. That contains everything any business needs.
-Version: 1.0
-*/
-
-/**
- *** Table of Content ***
- * reset css
- * Topbar css
- * Menu Section
- * Search Box
- * Home Section
- * call to action css
- * Services Section
- * About Us Section
- * Team Section
- * CounterUp Section
- * Projects Section
- * Contact US Section
- * Footer Sectoin
- * Copyright Section
- * *** Other CSS ***
- * Content Slider CSS
- * Background Image CSS
- * Background Slider Parallax CSS
- * *** pages css ****
- * blog page css
- * single page css
- **/
+.footer-text{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+}
 
 .topbar-area {
     background: #2f400e none repeat scroll 0 0;
@@ -317,7 +291,7 @@ section#contact{
 footer.footer-area {
     background: #131517;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px 0 0;
 }
 
 footer .widget-title.title-img img{
