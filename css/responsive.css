@@ -898,6 +898,9 @@
         footer.footer-area.section-padding{
             padding: 5px 0;
         }
+        footer.footer-area.section-padding nav.navbar{
+            display: none;
+        }
         .single-footer{
             display: none;
         }
